@@ -1,4 +1,5 @@
 import { UtilityCard } from "@/components/UtilityCard";
+import logo from "@/assets/logo.webp";
 
 const utilities = [
   {
@@ -34,6 +35,13 @@ const Index = () => {
       {/* Hero Section */}
       <header className="container mx-auto px-4 py-16 md:py-24">
         <div className="text-center space-y-6 animate-fade-in">
+          <div className="flex justify-center mb-8">
+            <img 
+              src={logo} 
+              alt="Okie Dokie Logo" 
+              className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 animate-scale-in"
+            />
+          </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary tracking-tight">
             Okie Dokie Utilities
           </h1>
