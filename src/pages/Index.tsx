@@ -3,6 +3,17 @@ import { Navbar } from "@/components/Navbar";
 
 const utilities = [
   {
+    title: "College Security Manager",
+    description: "Tracks student security money refunds for RKSD. Features student application portal and admin approval dashboard.",
+    url: "https://collegesecurity.vercel.app/",
+  },
+  {
+    title: "Student Admission Portal",
+    description: "Student Admission Portal for Lingyas Vidyapeeth. Features student application portal connected with erp, payment gateway integration and easy to use interface.",
+    url: "https://student-admission-portal-rouge.vercel.app",
+  },
+
+  {
     title: "PDF Splitter & Renamer",
     description: "Splits multi-student DMC PDFs and renames using Excel mapping (Reg → Roll No). Built with FastAPI, Python, and React.",
     url: "https://regex-split-pdf.lovable.app/",
@@ -33,7 +44,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-hero">
       <Navbar />
-      
+
       {/* Hero Section */}
       <header className="container mx-auto px-4 py-16 md:py-24">
         <div className="text-center space-y-6 animate-fade-in">
