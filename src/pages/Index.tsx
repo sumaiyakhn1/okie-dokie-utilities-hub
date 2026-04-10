@@ -12,6 +12,16 @@ const utilities = [
     description: "Student Admission Portal for Lingyas Vidyapeeth. Features student application portal connected with erp, payment gateway integration and easy to use interface.",
     url: "https://student-admission-portal-rouge.vercel.app",
   },
+  {
+    title: "Okie Dokie Cab",
+    description: "Corporate cab booking and tracking system for office staff. Streamlines ride scheduling and management for efficient daily commutes.",
+    url: "https://odcab.lovable.app/",
+  },
+  {
+    title: "Institute Hiring Checklist",
+    description: "Administrative tracking tool for onboarding new institutes. Manages essential checklists to ensure a smooth hiring and integration process.",
+    url: "https://odchecklist.lovable.app/",
+  },
 
   {
     title: "PDF Splitter & Renamer",
