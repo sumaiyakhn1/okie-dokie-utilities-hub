@@ -8,6 +8,16 @@ const utilities = [
     url: "https://collegesecurity.vercel.app/",
   },
   {
+    title: "Time Table Utility",
+    description: "Time Table Adjustment.",
+    url: "https://findingteacher.vercel.app/",
+  },
+  {
+    title: "Hostel Request & Approve",
+    description: "Student hostel room allocation portal with warden approval dashboard. Supports applications, re-applications, and status tracking.",
+    url: "https://hostel-oderp.vercel.app/",
+  },
+  {
     title: "Student Admission Portal",
     description: "Student Admission Portal for Lingyas Vidyapeeth. Features student application portal connected with erp, payment gateway integration and easy to use interface.",
     url: "https://student-admission-portal-rouge.vercel.app",
